@@ -37,7 +37,7 @@
 #' Dakos, V., et al (2008). "Slowing down as an early warning signal for abrupt climate change." \emph{Proceedings of the National Academy of Sciences} 105(38): 14308-14312 
 #' 
 #' Dakos, V., et al (2012)."Methods for Detecting Early Warnings of Critical Transitions in Time Series Illustrated Using Simulated Ecological Data." \emph{PLoS ONE} 7(7): e41010. doi:10.1371/journal.pone.0041010 
-#' @seealso \code{\link{generic_ews}}; \code{\link{ddjnonparam_ews}}; \code{\link{bdstest_ews}}; \code{\link{sensitivity_ews}}; \code{\link{surrogates_ews}}; \code{\link{ch_ews}}; \code{\link{movpotential_ews}}; \code{\link{livpotential_ews}}; \code{\link{timeVAR_ews}}; \code{\link{thresholdAR_ews}}
+#' @seealso \code{\link{generic_ews}}; \code{\link{ddjnonparam_ews}}; \code{\link{bdstest_ews}}; \code{\link{sensitivity_ews}}; \code{\link{surrogates_ews}}; \code{\link{ch_ews}}; \code{\link{movpotential_ews}}; \code{\link{livpotential_ews}}; 
 #'
 #' @importFrom moments skewness
 #' @importFrom moments kurtosis

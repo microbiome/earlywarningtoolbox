@@ -32,6 +32,7 @@ LazyLoad: yes
 URL: http://www.early-warning-signals.org, http://www.vasilisdakos.net
 License: GPL (>= 2)
 Collate:
+    'data.R'
     'BDSboot.R'
     'bdstest_ews.R'
     'ch_ews.R'

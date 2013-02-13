@@ -6,6 +6,7 @@
 #' @references See citation("earlywarnings")
 #' @source TBA
 #' @keywords datasets
+#' @export
 #' @examples #
 NULL
 
@@ -18,6 +19,7 @@ NULL
 #' @references See citation("earlywarnings")
 #' @source TBA
 #' @keywords datasets
+#' @export
 #' @examples #
 NULL
 
@@ -30,5 +32,6 @@ NULL
 #' @references See citation("earlywarnings")
 #' @source TBA
 #' @keywords datasetspl
+#' @export
 #' @examples #
 NULL
