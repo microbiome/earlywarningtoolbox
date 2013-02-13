@@ -12,22 +12,22 @@ Description: The Early-Warning-Signals Toolbox provides methods for estimating
     critical transitions. Based on Dakos et al (2012) Methods for Detecting
     Early Warnings of Critical Transitions in Time Series Illustrated Using
     Simulated Ecological Data. PLoS ONE 7(7):e41010
-Depends: 
-  R (>= 2.14.0), 
-  lmtest, 
-  nortest, 
-  stats, 
-  som, 
-  Kendall, 
-  KernSmooth,
-  moments, 
-  fields, 
-  spam, 
-  tseries, 
-  quadprog, 
-  fractal, 
-  akima,   
-  ggplot2
+Depends:
+    R (>= 2.14.0),
+    lmtest,
+    nortest,
+    stats,
+    som,
+    Kendall,
+    KernSmooth,
+    moments,
+    fields,
+    spam,
+    tseries,
+    quadprog,
+    fractal,
+    akima,
+    ggplot2
 LazyLoad: yes
 URL: http://www.early-warning-signals.org, http://www.vasilisdakos.net
 License: GPL (>= 2)
