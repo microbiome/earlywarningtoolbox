@@ -129,7 +129,7 @@ bdstest_ews<-function(timeseries,ARMAoptim=TRUE,ARMAorder=c(1,0),GARCHorder=c(0,
 	# Define BDS parameters
 	nboot <- boots
 	emb <- embdim # embedding dimension
-	eps.sd <- sd(Eps1)
+	eps.sd <- sd(as.vector(Eps1))
 	epsvec <- round(eps.sd* epsilon,6)
 
 	# Run BDS with bootstrapping
@@ -159,7 +159,7 @@ bdstest_ews<-function(timeseries,ARMAoptim=TRUE,ARMAorder=c(1,0),GARCHorder=c(0,
 	# Define BDS parameters
 	nboot <- boots
 	emb <- embdim # embedding dimension
-	eps.sd <- sd(Eps2)
+	eps.sd <- sd(as.vector(Eps2))
 	epsvec <- round(eps.sd*epsilon,6)
 
 	# Run BDS with bootstrapping
@@ -175,7 +175,7 @@ bdstest_ews<-function(timeseries,ARMAoptim=TRUE,ARMAorder=c(1,0),GARCHorder=c(0,
 	# Define BDS parameters
 	nboot <- boots
 	emb <- embdim # embedding dimension
-	eps.sd <- sd(Eps3)
+	eps.sd <- sd(as.vector(Eps3))
 	epsvec <- round(eps.sd*epsilon,6)
 
 	# Run BDS with bootstrapping
