@@ -72,7 +72,7 @@
   to detect nonlinearity in the residuals of a timeseries
   after first-difference detrending, fitting an ARMA(p,q)
   model, and fitting a GARCH(0,1) model. The function is
-  making use of \code{bds.test}.
+  making use of \code{bds.test} from the tseries package.
 }
 \details{
   See also \code{bds.test{tseries}} for more details. The
@@ -86,6 +86,11 @@
   data(foldbif)
   bdstest_ews(foldbif,ARMAoptim=FALSE,ARMAorder=c(1,0),embdim=3,epsilon=0.5,
   boots=200,logtransform=FALSE,interpolate=FALSE)
+}
+\examples{
+#
+#data(foldbif)
+#bdstest_ews(foldbif,ARMAoptim=FALSE,ARMAorder=c(1,0),embdim=3,epsilon=0.5, boots=200,logtransform=FALSE,interpolate=FALSE)
 }
 \author{
   S. R. Carpenter, modified by V. Dakos

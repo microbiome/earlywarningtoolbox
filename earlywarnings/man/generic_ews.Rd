@@ -126,7 +126,8 @@ data(foldbif)
   \code{\link{bdstest_ews}}; \code{\link{sensitivity_ews}};
   \code{\link{surrogates_ews}}; \code{\link{ch_ews}};
   \code{\link{movpotential_ews}};
-  \code{\link{livpotential_ews}}
+  \code{\link{livpotential_ews}} ;
+  \code{\link{timeVAR_ews}}; \code{\link{thresholdAR_ews}}
 }
 \keyword{early-warning}
 
